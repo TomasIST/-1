@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AnimeCode Academy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="#home" class="logo">
+                <span class="logo-symbol">✦</span>
+                Anime<span>Code</span>
+            </a>
+
+            <nav class="nav" id="nav">
+
+                <a href="#home">Главная</a>
+                <a href="#courses">Курсы</a>
+                <a href="#about">О нас</a>
+                <a href="#why">Преимущества</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contact">Контакты</a>
+
+            </nav>
+
+            <div class="header-buttons">
+
+                <!-- Переключатель темы -->
+                <button
+                    class="theme-btn"
+                    id="themeBtn"
+                    title="Сменить тему">
+                    🌙
+                </button>
+
+                <!-- Мобильное меню -->
+                <button
+                    class="menu-btn"
+                    id="menuBtn">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="particles"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <div class="anime-badge">
+                        ✦ WELCOME TO THE FUTURE ✦
+                    </div>
+
+                    <p class="subtitle">
+                        АНИМЕ • IT • ОБРАЗОВАНИЕ
+                    </p>
+
+                    <h1>
+                        УЧИСЬ.<br>
+                        <span>РАЗВИВАЙСЯ.</span><br>
+                        СОЗДАВАЙ.
+                    </h1>
+
+                    <p class="hero-description">
+
+                        Добро пожаловать в AnimeCode —
+                        образовательный центр нового поколения,
+                        где программирование встречается
+                        с атмосферой anime и cyberpunk.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#contact" class="neon-btn">
+                            <span>Записаться</span>
+                        </a>
+
+                        <a href="#courses" class="outline-btn">
+                            Смотреть курсы
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-character">
+
+                    <div class="character-glow"></div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85"
+                        alt="Anime style"
+                    >
+
+                    <div class="character-card">
+
+                        <span>⚡</span>
+
+                        <div>
+                            <strong>LEVEL UP!</strong>
+                            <small>Твой путь начинается здесь</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COURSES ================= -->
+
+        <section class="section courses" id="courses">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>✦ OUR COURSES ✦</span>
+
+                    <h2>
+                        Выбери свой
+                        <strong>путь</strong>
+                    </h2>
+
+                    <p>
+                        Получай знания. Создавай проекты. Повышай свой уровень.
+                    </p>
+
+                </div>
+
+
+                <div class="courses-grid">
+
+
+                    <!-- HTML -->
+
+                    <article class="course-card">
+
+                        <div class="card-number">01</div>
+
+                        <div class="course-image html-image">
+                            <span>&lt;/&gt;</span>
+                        </div>
+
+                        <div class="course-content">
+
+                            <div class="course-tag">
+                                WEB DEVELOPMENT
+                            </div>
+
+                            <h3>HTML & CSS</h3>
+
+                            <p>
+                                Создание красивых современных
+                                сайтов с нуля.
+                            </p>
+
+                            <div class="course-bottom">
+
+                                <strong>
+                                    4 500 сом
+                                </strong>
+
+                                <button class="details-btn">
+                                    Подробнее →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PYTHON -->
+
+                    <article class="course-card">
+
+                        <div class="card-number">02</div>
+
+                        <div class="course-image python-image">
+                            <span>🐍</span>
+                        </div>
+
+                        <div class="course-content">
+
+                            <div class="course-tag">
+                                PROGRAMMING
+                            </div>
+
+                            <h3>Python</h3>
+
+                            <p>
+                                Изучение программирования,
+                                алгоритмов и разработки.
+                            </p>
+
+                            <div class="course-bottom">
+
+                                <strong>
+                                    5 000 сом
+                                </strong>
+
+                                <button class="details-btn">
+                                    Подробнее →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- AI -->
+
+                    <article class="course-card">
+
+                        <div class="card-number">03</div>
+
+                        <div class="course-image ai-image">
+                            <span>◉</span>
+                        </div>
+
+                        <div class="course-content">
+
+                            <div class="course-tag">
+                                FUTURE TECH
+                            </div>
+
+                            <h3>AI & Нейросети</h3>
+
+                            <p>
+                                Искусственный интеллект,
+                                нейросети и AI-инструменты.
+                            </p>
+
+                            <div class="course-bottom">
+
+                                <strong>
+                                    6 000 сом
+                                </strong>
+
+                                <button class="details-btn">
+                                    Подробнее →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- JAVASCRIPT -->
+
+                    <article class="course-card">
+
+                        <div class="card-number">04</div>
+
+                        <div class="course-image js-image">
+                            <span>JS</span>
+                        </div>
+
+                        <div class="course-content">
+
+                            <div class="course-tag">
+                                WEB DEVELOPMENT
+                            </div>
+
+                            <h3>JavaScript</h3>
+
+                            <p>
+                                Создание интерактивных сайтов
+                                и веб-приложений.
+                            </p>
+
+                            <div class="course-bottom">
+
+                                <strong>
+                                    5 500 сом
+                                </strong>
+
+                                <button class="details-btn">
+                                    Подробнее →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about" id="about">
+
+            <div class="container about-content">
+
+                <div class="about-character">
+
+                    <div class="about-glow"></div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1541560052-77ec1bbc09f7?auto=format&fit=crop&w=900&q=85"
+                        alt="Anime character"
+                    >
+
+                    <div class="floating-text">
+                        ✦ NEVER STOP LEARNING ✦
+                    </div>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <span class="section-label">
+                        ✦ ABOUT US
+                    </span>
+
+                    <h2>
+                        Мы создаём
+                        <span>будущее</span>
+                    </h2>
+
+                    <p>
+                        AnimeCode — образовательный центр
+                        для тех, кто хочет освоить современные
+                        технологии и сделать первый шаг
+                        в мир IT.
+                    </p>
+
+                    <p>
+                        Наш подход объединяет практическое
+                        обучение, современные технологии
+                        и яркую anime-атмосферу.
+                    </p>
+
+
+                    <div class="statistics">
+
+                        <div class="stat">
+                            <strong>500+</strong>
+                            <span>Студентов</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>15</strong>
+                            <span>Курсов</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>10</strong>
+                            <span>Мастеров</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY US ================= -->
+
+        <section class="section why" id="why">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>✦ WHY US ✦</span>
+
+                    <h2>
+                        Почему именно
+                        <strong>мы?</strong>
+                    </h2>
+
+                </div>
+
+
+                <div class="advantages">
+
+                    <div class="advantage">
+
+                        <div class="advantage-icon">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Практика
+                        </h3>
+
+                        <p>
+                            Учимся через реальные
+                            проекты и задания.
+                        </p>
+
+                    </div>
+
+
+                    <div class="advantage">
+
+                        <div class="advantage-icon">
+                            💻
+                        </div>
+
+                        <h3>
+                            Новые технологии
+                        </h3>
+
+                        <p>
+                            Изучаем технологии
+                            будущего.
+                        </p>
+
+                    </div>
+
+
+                    <div class="advantage">
+
+                        <div class="advantage-icon">
+                            👾
+                        </div>
+
+                        <h3>
+                            Anime атмосфера
+                        </h3>
+
+                        <p>
+                            Учёба становится
+                            интереснее.
+                        </p>
+
+                    </div>
+
+
+                    <div class="advantage">
+
+                        <div class="advantage-icon">
+                            🏆
+                        </div>
+
+                        <h3>
+                            Сертификат
+                        </h3>
+
+                        <p>
+                            Получи сертификат
+                            после обучения.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+
+        <section class="section reviews" id="reviews">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>✦ STUDENTS ✦</span>
+
+                    <h2>
+                        Отзывы
+                        <strong>героев</strong>
+                    </h2>
+
+                </div>
+
+
+                <div class="reviews-grid">
+
+
+                    <div class="review-card">
+
+                        <div class="review-avatar">
+                            A
+                        </div>
+
+                        <h3>
+                            Айбек
+                        </h3>
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            «Очень крутой курс!
+                            Теперь я могу создавать
+                            свои сайты.»
+                        </p>
+
+                    </div>
+
+
+                    <div class="review-card">
+
+                        <div class="review-avatar pink">
+                            А
+                        </div>
+
+                        <h3>
+                            Алина
+                        </h3>
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            «Очень понравилась
+                            атмосфера и преподаватели.
+                            Всё супер!»
+                        </p>
+
+                    </div>
+
+
+                    <div class="review-card">
+
+                        <div class="review-avatar purple">
+                            Б
+                        </div>
+
+                        <h3>
+                            Бекзат
+                        </h3>
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            «Теперь программирование
+                            стало моим любимым хобби.»
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact" id="contact">
+
+            <div class="container contact-content">
+
+
+                <div class="contact-text">
+
+                    <span class="section-label">
+                        ✦ JOIN US
+                    </span>
+
+                    <h2>
+                        Готов
+                        <span>повысить уровень?</span>
+                    </h2>
+
+                    <p>
+                        Заполни форму и начни свой путь
+                        в мире технологий.
+                    </p>
+
+                    <div class="contact-line">
+                        ⚡ +996 555 123 456
+                    </div>
+
+                    <div class="contact-line">
+                        ✉ example@gmail.com
+                    </div>
+
+                </div>
+
+
+                <form
+                    class="registration-form"
+                    id="registrationForm"
+                >
+
+                    <h3>
+                        Регистрация
+                    </h3>
+
+                    <div class="input-box">
+
+                        <input
+                            type="text"
+                            id="name"
+                            required
+                        >
+
+                        <label>
+                            Имя
+                        </label>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            required
+                        >
+
+                        <label>
+                            Телефон
+                        </label>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <input
+                            type="email"
+                            id="email"
+                            required
+                        >
+
+                        <label>
+                            Email
+                        </label>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <select id="course" required>
+
+                            <option value="">
+                                Выбери курс
+                            </option>
+
+                            <option>
+                                HTML & CSS
+                            </option>
+
+                            <option>
+                                Python
+                            </option>
+
+                            <option>
+                                AI & Нейросети
+                            </option>
+
+                            <option>
+                                JavaScript
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <textarea
+                            id="message"
+                            rows="4"
+                            placeholder="Сообщение..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="neon-btn submit-btn"
+                    >
+                        <span>
+                            Отправить заявку ⚡
+                        </span>
+                    </button>
+
+
+                    <p id="formMessage"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <div class="logo">
+                    <span>✦</span>
+                    Anime<span>Code</span>
+                </div>
+
+                <p>
+                    © 2026 AnimeCode Academy
+                </p>
+
+            </div>
+
+
+            <div class="socials">
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    Telegram
+                </a>
+
+                <a href="#">
+                    WhatsApp
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <p>
+                    📞 +996 XXX XXX XXX
+                </p>
+
+                <p>
+                    ✉ example@gmail.com
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
